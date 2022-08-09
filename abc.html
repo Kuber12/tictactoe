@@ -82,20 +82,6 @@
             
         })
     }
-function wincheck(){
-    for(const row in list){
-        if(box[list[row][0]].textContent == turnManager && box[list[row][1]].textContent == turnManager && box[list[row][2]].textContent == turnManager){
-            alert(turnManager + " wins");
-        }
-    }
-    for(var i = 0;i < 9;i++){
-        if(allOccupied == false){
-            if(box[i].textContent == " "){
-                allOccupied = false;
-            }
-        }
-    }
-}
 
 </script>
 
